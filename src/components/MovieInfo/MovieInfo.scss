@@ -1,7 +1,7 @@
-@import '../../styles/shared.scss';
+@import "../../styles/shared.scss";
 
 .MovieInfo {
-  position: relative; 
+  position: relative;
   width: 50%;
   height: 300px;
   display: block;
@@ -12,7 +12,7 @@
   height: 227px;
   position: absolute;
   right: 69.74%;
-  }
+}
 
 .title {
   font-family: Roboto;
@@ -24,6 +24,7 @@
   left: 37.47%;
   top: 10.13%;
   bottom: 74.45%;
+  margin-bottom: 5px;
 }
 
 .date {
@@ -48,6 +49,7 @@
   position: absolute;
   left: 37.47%;
   right: 0%;
-  top: 30.84%;
+  top: 33.84%;
   bottom: 16.74%;
+  width: 50%;
 }

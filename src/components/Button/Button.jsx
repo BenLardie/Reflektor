@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { MovieContext } from '../../App';
 import './Button.scss';
 
@@ -8,6 +8,12 @@ const Button = (props) => {
   const genreName = props.genre.name
   const [open, setOpen] = useState('')
   const {selectedGenres, setSelectedGenres} = useContext(MovieContext)
+
+  useEffect(() => {
+    if (selectedGenres.includes(props.genre)) {
+      setOpen('open')
+    }
+  })
 
   const genreList = (genre) => {
     const tempList = [...selectedGenres];

@@ -1,9 +1,12 @@
+
+
 .module {
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: grey;
     position: relative;
     z-index: 100;
+    overflow: hidden;
 }
 
 .selectors {
