@@ -1,0 +1,53 @@
+@import '../../styles/shared.scss';
+
+.MovieInfo {
+  position: relative; 
+  width: 50%;
+  height: 300px;
+  display: block;
+}
+
+.poster {
+  width: 151px;
+  height: 227px;
+  position: absolute;
+  right: 69.74%;
+  }
+
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: $white;
+  position: absolute;
+  left: 37.47%;
+  top: 10.13%;
+  bottom: 74.45%;
+}
+
+.date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: $textColor;
+  position: absolute;
+  left: 37.47%;
+  right: 56.11%;
+  top: 0%;
+  bottom: 92.07%;
+}
+
+.overview {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: $textColor;
+  position: absolute;
+  left: 37.47%;
+  right: 0%;
+  top: 30.84%;
+  bottom: 16.74%;
+}

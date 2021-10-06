@@ -1,0 +1,71 @@
+@import "../../styles/shared.scss";
+
+.filterBar {
+  height: 165px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+}
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  margin: 180px auto;
+}
+
+.filterButton {
+  text-decoration: none;
+  border: none;
+  width: 114px;
+  height: 43px;
+  margin-left: 80px;
+  margin-top: 42px;
+  background-color: $pink;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: $white;
+  text-align: center;
+}
+
+.clearFilter {
+  margin-left: 230px;
+  margin-top: -32px;
+}
+
+.clearFilter svg {
+  display: inline;
+  margin-right: 10px;
+}
+
+.clearFilter p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: $white;
+  display: inline;
+}
+ul {
+  list-style: none;
+  margin-top: 35px;
+}
+.selectedGenre {
+  width: 83px;
+  height: 31px;
+  background: $purple;
+  border-radius: 11px;
+  color: white;
+  display: inline;
+  text-align: center;
+  margin: 12px;
+  padding: 10px;
+}
