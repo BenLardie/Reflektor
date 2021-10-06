@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Reflektor/static/css/main.906f8f62.chunk.css",
-    "main.js": "/Reflektor/static/js/main.a0734c86.chunk.js",
-    "main.js.map": "/Reflektor/static/js/main.a0734c86.chunk.js.map",
+    "main.css": "/Reflektor/static/css/main.0d22d77f.chunk.css",
+    "main.js": "/Reflektor/static/js/main.52fd78b7.chunk.js",
+    "main.js.map": "/Reflektor/static/js/main.52fd78b7.chunk.js.map",
     "runtime-main.js": "/Reflektor/static/js/runtime-main.4aba40fa.js",
     "runtime-main.js.map": "/Reflektor/static/js/runtime-main.4aba40fa.js.map",
-    "static/js/2.48787a8a.chunk.js": "/Reflektor/static/js/2.48787a8a.chunk.js",
-    "static/js/2.48787a8a.chunk.js.map": "/Reflektor/static/js/2.48787a8a.chunk.js.map",
+    "static/js/2.e64c3c03.chunk.js": "/Reflektor/static/js/2.e64c3c03.chunk.js",
+    "static/js/2.e64c3c03.chunk.js.map": "/Reflektor/static/js/2.e64c3c03.chunk.js.map",
     "index.html": "/Reflektor/index.html",
-    "static/css/main.906f8f62.chunk.css.map": "/Reflektor/static/css/main.906f8f62.chunk.css.map",
-    "static/js/2.48787a8a.chunk.js.LICENSE.txt": "/Reflektor/static/js/2.48787a8a.chunk.js.LICENSE.txt"
+    "static/css/main.0d22d77f.chunk.css.map": "/Reflektor/static/css/main.0d22d77f.chunk.css.map",
+    "static/js/2.e64c3c03.chunk.js.LICENSE.txt": "/Reflektor/static/js/2.e64c3c03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4aba40fa.js",
-    "static/js/2.48787a8a.chunk.js",
-    "static/css/main.906f8f62.chunk.css",
-    "static/js/main.a0734c86.chunk.js"
+    "static/js/2.e64c3c03.chunk.js",
+    "static/css/main.0d22d77f.chunk.css",
+    "static/js/main.52fd78b7.chunk.js"
   ]
 }
